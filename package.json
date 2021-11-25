@@ -1,5 +1,6 @@
 {
-  "name": "store",
+  "name": "my-app",
+  "homepage": "https://tomerpacific.github.io/starter-project/",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
@@ -43,6 +44,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
