@@ -1,5 +1,6 @@
 {
-  "name": "store",
+  "name": "my-app",
+  "homepage": "https://tomerpacific.github.io/starter-project/",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
